@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: black;
+}
+
+.div {
+    width: 100%;
+  
+    background-color: black;
+    margin: 15px auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+.div .header1,
+.div .section1,
+.div .section2,
+.div .lastfooter {
+    background: #fff;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.div .header1 {
+    background-color: #fff;
+    color:#12203E;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+#holi {
+    display: flex;
+    justify-content: center;
+}
+
+.div .section1 {
+    grid-column: span 2;
+}
+
+.div .section2 {
+    grid-column: span 1;
+}
+
+.div .lastfooter {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.logo {
+    height: 65px;
+}
+
+.ca1 {
+    height: 300px;
+}
+
+.ca2 {
+    height: 260px;
+}
+
+.ca3 {
+    height: 240px;
+}
+
+
+#ul1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding-left: 200px;
+    margin-right: 100px;
+    padding-right: 200px;
+    border-right: solid black;
+    border-left: solid black;
+    height: 100px;
+}
+
+#a1 {
+    text-decoration: underline;
+    color: black;
+}
+
+.login {
+    height: 90px;
+}
+
+.login1 {
+    height: 50px;
+}
+
+.login2 {
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.ingreso {
+    display: flex;
+}
+
+.header1 {
+    display: grid;
+}
+
+.centros {
+    display: flex;
+    justify-content: center;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footera {
+    height: 50px;
+    display: flex;
+}
+.footero {
+    height: 20px;
+    justify-content: center;
+}
+
+.section1 {
+    border-left: solid black;
+}
+
+.section2 {
+    border-right: solid black;
+}
+
+.header1 {
+    border-top: solid black;
+}
+
+.lastfooter {
+    border-bottom: solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.i1 {
+    height: 50px;
+    margin: 20px;
+}
+
+.pse {
+    height: 100px;
+}
+
+#hospi {
+    width: 435px;
+    height: 1000px;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.div2 {
+    margin-left: 1500px;
+    position: fixed;
+    z-index: 1;
+}
+
+#borde {
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+#bord {
+    border-bottom: solid black;
+}
